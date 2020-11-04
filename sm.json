@@ -1,0 +1,9 @@
+{
+  "libraries": [
+    "@/slices",
+    "@/slices",
+    "vue-essential-slices"
+  ],
+  "apiEndpoint": "https://slice-machine-project.cdn.prismic.io/api/v2",
+  "storybook": "http://localhost:3003"
+}

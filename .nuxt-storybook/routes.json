@@ -1,0 +1,19 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/prismic/Desktop/my-slicemachine-project/.nuxt-storybook/prismic/pages/preview.vue"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/prismic/Desktop/my-slicemachine-project/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Users/prismic/Desktop/my-slicemachine-project/pages/_uid.vue",
+    "chunkName": "pages/_uid"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "new_slice",
+  "type": "SharedSlice",
+  "name": "NewSlice",
+  "description": "NewSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NewSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "labels" :  ["lg-paragraph", "sm-paragraph"]
+          }
+        },
+        "newtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "newtext",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
